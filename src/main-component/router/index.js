@@ -17,7 +17,7 @@ const AllRoute = () => {
   
   return (
     <div className="App">
-  <BrowserRouter>
+  <BrowserRouter basename={ProcessingInstruction.env.PUBLIC_URL}>
           <Route path='/web-scraping' component={WebScraping} />
           <Route path='/empresa-desarrollo-app-moviles' component={AppMovil} />
           <Route path='/machine-learning-chile' component={MachineLearning} />
