@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import {HashRouter, BrowserRouter, Switch, Route } from 'react-router-dom'
 
 import Homepage from '../HomePage/index'
 import WebScraping from '../HomePage/Scrapy'
@@ -17,13 +17,13 @@ const AllRoute = () => {
   
   return (
     <div className="App">
-  <BrowserRouter basename={ProcessingInstruction.env.PUBLIC_URL}>
+  <HashRouter basename="/">
           <Route path='/web-scraping' component={WebScraping} />
           <Route path='/empresa-desarrollo-app-moviles' component={AppMovil} />
           <Route path='/machine-learning-chile' component={MachineLearning} />
           <Route exact path='/' component={Homepage} />
           <Route path='/RPA-Chile-robot-process-automatization' component={RPA} />
-          </BrowserRouter>
+          </HashRouter>
 
     </div>
   );
