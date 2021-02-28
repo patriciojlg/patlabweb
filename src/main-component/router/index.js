@@ -17,13 +17,13 @@ const AllRoute = () => {
   
   return (
     <div className="App">
-  <HashRouter basename={process.env.PUBLIC_URL}>
+  <BrowserRouter >
           <Route path='/web-scraping' component={WebScraping} />
           <Route path='/empresa-desarrollo-app-moviles' component={AppMovil} />
           <Route path='/machine-learning-chile' component={MachineLearning} />
           <Route exact path='/' component={Homepage} />
           <Route path='/RPA-Chile-robot-process-automatization' component={RPA} />
-          </HashRouter>
+          </BrowserRouter>
 
     </div>
   );
