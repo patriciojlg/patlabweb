@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5f0a8dac7ba7d1ebf72f9421c903bfdd",
+    "revision": "d182b9a3784b6e0ad0b3bfc400995e12",
     "url": "/patlabweb/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/patlabweb/static/css/2.4d145eb5.chunk.css"
   },
   {
-    "revision": "d4a4c3f1b87dc385a95e",
+    "revision": "475bea25e2cd43a5dfd0",
     "url": "/patlabweb/static/css/main.c29c0eb5.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/patlabweb/static/js/2.f935e4f6.chunk.js"
   },
   {
-    "revision": "d4a4c3f1b87dc385a95e",
-    "url": "/patlabweb/static/js/main.a4a33d26.chunk.js"
+    "revision": "475bea25e2cd43a5dfd0",
+    "url": "/patlabweb/static/js/main.374bb771.chunk.js"
   },
   {
     "revision": "43da67fbf86d2c10084b",
