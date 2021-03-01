@@ -23,23 +23,20 @@ const Navbar = lazy(() => import('../../components/Navbar'));
 const HomePage = () => {
 
     return (
-        <div>
+        <Suspense fallback={<div>Loading...</div>}>
             <SEO title="PATLAB - Empresa desarrolladora de software a medida en Chile" thumbnail={AboutIndex} url="https://patlab.cl/" />
 
-            <Suspense fallback={<div>Loading...</div>}>
+            
                 <Navbar />
-            </Suspense>
-            <Suspense fallback={<div>Loading...</div>}>
+         
                 <Banner hero={HeroIndex} title="Empresa de desarrollo de software a medida" />
-            </Suspense>
-            <Suspense fallback={<div>Loading...</div>}>
+          
                 <About
                     aboutImg={AboutIndex}
                     title="DESARROLLAMOS SOFTWARE A MEDIDA"
                     p1="Explore las 6 soluciones principales que ofrecemos en tecnología de la información enfocada a la transformación digital. 
                 Obtenga la eficiencia de la automatización de procesos y la inteligencia del Machine Learning"
-                /></Suspense>
-            <Suspense fallback={<div>Loading...</div>}>
+                />
                 <Services sr1={sr1} sr2={sr2} sr3={sr6} sr4={sr4} sr5={sr5} sr6={sr3}
                     link2="/web-scraping"
                     link3="/empresa-desarrollo-app-moviles"
@@ -59,17 +56,14 @@ const HomePage = () => {
                     p5="Ahorra hasta un 75% de tu inversión en servidores y servicios migrándote a AWS con nosotros"
                     t6="Inteligencia de negocios"
                     p6="Desarrollamos tu aplicación móvil de forma nativa, en un sólo proyecto obtén sus 3 versiones (IOS, Android y Huawei)"
-                /></Suspense>
-            <Suspense fallback={<div>Loading...</div>}>
+                />
                 <Contact />
-            </Suspense>
-            <Suspense fallback={<div>Loading...</div>}>
+           
                 <Footer />
-            </Suspense>
-            <Suspense fallback={<div>Loading...</div>}>
+      
                 <Scrollbar />
             </Suspense>
-        </div>
+   
     )
 };
 export default HomePage;
