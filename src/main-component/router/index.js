@@ -1,13 +1,11 @@
-import React, { Suspense } from 'react';
+import React, { Suspense, lazy} from 'react';
 import {HashRouter, BrowserRouter, Switch, Route } from 'react-router-dom'
 
-import Homepage from '../HomePage/index'
-import WebScraping from '../HomePage/Scrapy'
-
-import AppMovil from '../HomePage/AppMovil';
-import MachineLearning from '../HomePage/MachineLearning';
-import RPA from '../HomePage/RPA';
-
+const Homepage = lazy(() => import('../HomePage/index'));
+const WebScraping = lazy(() => import('../HomePage/Scrapy'));
+const AppMovil = lazy(() => import('../HomePage/AppMovil'));
+const MachineLearning = lazy(() => import('../HomePage/MachineLearning'));
+const RPA = lazy(() => import('../HomePage/RPA'));
 
 
 
