@@ -8,18 +8,11 @@ export default function Banner({ title, hero }) {
 
     return (
         <section id="home" className="hero hero-slider-wrapper hero-style-1">
-            <div  >
+            <div>
                 <div className="slide" style={{
-
-
                     backgroundImage: `linear-gradient(to right top, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.05)), url(${hero})`,
-            
                     backgroundSize: "cover",
-
-
-
                 }}>
-
                     <div className="container">
                         <div className="row">
                             <div className="col col-md-8 col-sm-12 slide-caption">

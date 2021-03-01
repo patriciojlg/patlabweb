@@ -23,7 +23,7 @@ export default function Services({ span, h2, t1, p1, t2, p2, t3, p3, t4, p4, t5,
                                     <div className="service-dot">
                                         <div className="dots" style={{ background: "#52a8ba" }}></div>
                                     </div>
-                                    <i><img src={sr1} class="img_svg" alt="" /></i>
+                                    <i><img src={sr1} class="img_svg" width="50px" height="50px" alt="" /></i>
                                 </div>
                                 <div className="service-content">
                                     <h2>{t1}</h2>
@@ -41,7 +41,7 @@ export default function Services({ span, h2, t1, p1, t2, p2, t3, p3, t4, p4, t5,
                                     <div className="service-dot">
                                         <div className="dots" style={{ background: "#ffd75b" }}></div>
                                     </div>
-                                    <i><img src={sr2} class="img_svg" alt="" /></i>
+                                    <i><img src={sr2} class="img_svg" width="50px" height="50px" alt="" /></i>
                                 </div>
                                 <div className="service-content">
                                     <h2>{t2}</h2>
@@ -59,7 +59,7 @@ export default function Services({ span, h2, t1, p1, t2, p2, t3, p3, t4, p4, t5,
                                     <div className="service-dot">
                                         <div className="dots" style={{ background: "#52a8ba" }}></div>
                                     </div>
-                                    <i><img src={sr3} class="img_svg" alt="" /></i>
+                                    <i><img src={sr3} class="img_svg" width="50px" height="50px" alt="" /></i>
                                 </div>
                                 <div className="service-content">
                                     <h2>{t3}</h2>
@@ -77,7 +77,7 @@ export default function Services({ span, h2, t1, p1, t2, p2, t3, p3, t4, p4, t5,
                                     <div className="service-dot">
                                         <div className="dots" style={{ background: "#ff3d68" }}></div>
                                     </div>
-                                    <i><img src={sr4} class="img_svg" alt="" /></i>
+                                    <i><img src={sr4} class="img_svg" alt="" width="50px" height="50px"/></i>
                                 </div>
                                 <div className="service-content">
                                     <h2>{t4}</h2>
@@ -95,7 +95,7 @@ export default function Services({ span, h2, t1, p1, t2, p2, t3, p3, t4, p4, t5,
                                     <div className="service-dot">
                                         <div className="dots" style={{ background: "#8dca3c" }}></div>
                                     </div>
-                                    <i><img src={sr5} class="img_svg" alt="" /></i>
+                                    <i><img src={sr5} class="img_svg" alt="" width="50px" height="50px" /></i>
                                 </div>
                                 <div className="service-content">
                                     <h2>{t5}</h2>
@@ -113,7 +113,7 @@ export default function Services({ span, h2, t1, p1, t2, p2, t3, p3, t4, p4, t5,
                                     <div className="service-dot">
                                         <div className="dots" style={{ background: "#535cd9" }}></div>
                                     </div>
-                                    <i><img src={sr6} class="img_svg" alt="" /></i>
+                                    <i><img src={sr6} class="img_svg" alt="" width="50px" height="50px"/></i>
                                 </div>
                                 <div className="service-content">
                                     <h2>{t6}</h2>
